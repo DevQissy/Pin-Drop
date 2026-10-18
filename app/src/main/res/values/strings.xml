@@ -1,0 +1,155 @@
+<resources>
+    <string name="app_name" translatable="false">Pin Drop</string>
+    <!-- Download status messages -->
+    <string name="download_connecting">Connecting...</string>
+    <string name="download_advanced_rendering">Advanced rendering...</string>
+    <string name="download_no_media_found">No media file found</string>
+    <string name="download_file_progress">File %d/%d</string>
+    <string name="download_file_progress_percent"> %d/%d (%d%%)</string>
+    <string name="download_success_all">%d file(s) saved</string>
+    <string name="download_success_partial">%d/%d saved</string>
+    <string name="download_failed">Download failed</string>
+    <string name="download_error">Error</string>
+    <!-- Add Link Dialog -->
+    <string name="add_link_title">Add Pinterest Link</string>
+    <string name="add_link_warning">Pinterest service may not be available in your region. Before starting the download process, make sure you have a stable connection to Pinterest domain.</string>
+    <string name="add_link_placeholder">https://pin.it/...</string>
+    <string name="add_link_hint">Copy the link from Pinterest app and paste it in the box above</string>
+    <string name="add_link_empty_error">Please enter a link</string>
+    <string name="add_link_download_button">Download</string>
+    <string name="add_link_cancel_button">Cancel</string>
+    <string name="add_link_paste_description">Paste</string>
+    <string name="add_link_clear_description">Clear</string>
+    <!-- Confirm Dialog -->
+    <string name="confirm_dialog_default_title">Confirm</string>
+    <string name="confirm_dialog_default_message">Are you sure?</string>
+    <string name="confirm_dialog_confirm_button">Yes</string>
+    <string name="confirm_dialog_dismiss_button">Cancel</string>
+    <!-- Download Item -->
+    <string name="download_item_file_progress">File %d/%d</string>
+    <string name="download_item_cancel_description">Cancel</string>
+    <!-- Help Dialog -->
+    <string name="help_dialog_title">Help Guide</string>
+    <string name="help_section_about_title">About Pin Drop</string>
+    <string name="help_section_about_content">This tool downloads images, videos, and albums from Pinterest platform, fetching your desired content in the highest available quality.</string>
+    <string name="help_section_steps_title">Download Steps</string>
+    <string name="help_section_steps_content">1. Copy the pin or album link from the Pinterest app.\n2. Tap the ＋ icon in the bottom bar.\n3. Paste the copied link into the input field.\n4. Press the start button to begin downloading.</string>
+    <string name="help_section_storage_title">File Storage Location</string>
+    <string name="help_section_storage_content">Downloaded files are automatically saved to your device storage and visible in the gallery:\n• Videos: Movies/PinDrop folder\n• Images: Pictures/PinDrop folder</string>
+    <string name="help_section_albums_title">Downloading Albums</string>
+    <string name="help_section_albums_content">When you enter an album link, the app intelligently detects all images in it and downloads them all at once.</string>
+    <string name="help_section_history_title">Download History</string>
+    <string name="help_section_history_content">All downloaded files are recorded in the history section for quick access in the future.</string>
+    <string name="help_section_quality_title">File Quality</string>
+    <string name="help_section_quality_content">Pin Drop downloads files with no additional compression, preserving the original quality as available on Pinterest servers.</string>
+    <string name="help_dialog_notice">Note: If you encounter any issues with the app, please report the problem through the \"Support\" section.</string>
+    <string name="help_dialog_confirm_button">Got it</string>
+    <!-- Media Components -->
+    <string name="media_no_app_found">No app found to open this file</string>
+    <string name="media_video_thumbnail_desc" translatable="false">Video thumbnail</string>
+    <string name="media_video_icon_desc" translatable="false">Video</string>
+    <string name="media_play_icon_desc" translatable="false">Play</string>
+    <!-- Options Menu -->
+    <string name="options_menu_content_description">Options</string>
+    <string name="options_menu_help">Help</string>
+    <string name="options_menu_support">Support</string>
+    <string name="options_menu_rate">Rate this app</string>
+    <!-- Rate Dialog -->
+    <string name="rate_dialog_title">Rate this app</string>
+    <string name="rate_dialog_message">If you are satisfied with Pin Drop, support us by rating the app on Myket. Your feedback helps improve the app quality.</string>
+    <string name="rate_dialog_error">Sorry, an error occurred</string>
+    <string name="rate_dialog_confirm_button">Rate now</string>
+    <string name="rate_dialog_dismiss_button">Later</string>
+    <!-- Support Dialog -->
+    <string name="support_dialog_title">Support &amp; Feedback</string>
+    <string name="support_dialog_message">To send questions, suggestions, or report issues, you can contact the developer via email.</string>
+    <string name="support_email_subject">Pin Drop Support</string>
+    <string name="support_no_email_app">No email app installed on your device</string>
+    <string name="support_open_email_error">Error opening email app</string>
+    <string name="support_confirm_button">Continue</string>
+    <string name="support_dismiss_button">Cancel</string>
+    <!-- Delete File Dialog -->
+    <string name="delete_dialog_title">Delete File</string>
+    <string name="delete_dialog_message">Are you sure you want to delete "%s"?</string>
+    <string name="delete_dialog_warning">This action is irreversible and the file will be permanently deleted.</string>
+    <string name="delete_dialog_confirm_button">Delete</string>
+    <string name="delete_dialog_cancel_button">Cancel</string>
+    <!-- FirstLaunch Dialog -->
+    <string name="dialog_first_launch_title">Dont forget:</string>
+    <string name="dialog_first_launch_desc">Pinterest service may not be available in your region. Before starting the download process, make sure you have a stable connection to Pinterest domain.</string>
+    <string name="dialog_first_launch_confirm">Oky</string>
+    <!-- Permission Screen -->
+    <string name="battery_permission_title">Disable Battery Optimization</string>
+    <string name="battery_permission_message">For stable background downloading, allow Pin Drop to be excluded from battery optimization restrictions.</string>
+    <string name="battery_permission_confirm">Continue</string>
+    <string name="battery_permission_exit">Exit</string>
+    <string name="notification_permission_title">Notification Permission</string>
+    <string name="notification_permission_message">To show download progress in the notification bar, we need notification permission.</string>
+    <string name="notification_permission_confirm">Continue</string>
+    <string name="notification_permission_skip">Skip</string>
+    <string name="permission_title">App Permissions</string>
+    <string name="permission_description">To download, manage, and properly run background tasks, please review and grant the following permissions:</string>
+    <string name="permission_status_granted">Granted</string>
+    <string name="permission_button_enable">Enable Permission</string>
+    <string name="permission_button_already_enabled">Permission Granted</string>
+    <!-- Downloads Screen -->
+    <string name="downloads_screen_options">Options</string>
+    <string name="downloads_screen_help">Help</string>
+    <string name="downloads_screen_support">Support</string>
+    <string name="downloads_screen_rate">Rate this app</string>
+    <string name="downloads_screen_clear_history">Clear History</string>
+    <string name="downloads_screen_active_section">Active Downloads</string>
+    <string name="downloads_screen_history_section">History</string>
+    <string name="downloads_screen_clear_button">Clear</string>
+    <string name="downloads_screen_no_downloads">No downloads yet</string>
+    <string name="downloads_screen_add_hint">Tap + button to add a Pinterest link</string>
+    <string name="downloads_screen_clear_history_title">Clear History</string>
+    <string name="downloads_screen_clear_history_message">Are you sure you want to clear all download history?</string>
+    <string name="downloads_screen_clear_history_confirm">Yes, clear</string>
+    <string name="downloads_screen_clear_history_cancel">Cancel</string>
+    <!-- FilesScreen - Messages -->
+    <string name="files_delete_success">File deleted</string>
+    <string name="files_delete_error">Error deleting file</string>
+    <string name="files_delete_error_detail">Error: %s</string>
+    <string name="files_share_error">Error sharing file</string>
+    <string name="files_share_chooser_title">Share</string>
+    <!-- History Item -->
+    <string name="history_item_file_count"> %d of %d files</string>
+    <string name="history_item_link_copied">Link copied</string>
+    <string name="history_item_copy_link_button">Copy Link</string>
+    <!-- Files Screen -->
+    <string name="files_tab_all">All</string>
+    <string name="files_empty_all">No files found</string>
+    <string name="files_tab_videos">Videos</string>
+    <string name="files_tab_images">Images</string>
+
+    <!-- Media List -->
+    <string name="files_empty_videos">No videos found</string>
+    <string name="files_empty_images">No images found</string>
+    <string name="files_empty_subtitle">Downloaded files will appear here</string>
+    <!-- Main Screen -->
+    <string name="main_bottom_bar_files">Files</string>
+    <string name="main_fab_add_link">Add Link</string>
+    <string name="main_bottom_bar_downloads">Downloads</string>
+    <!-- Download ViewModel -->
+    <string name="vm_no_internet">No internet connection</string>
+    <string name="vm_in_queue">In queue...</string>
+    <string name="vm_cancelled_by_user">Cancelled by user</string>
+    <!-- MediaListItem -->
+    <string name="media_open_file_error">Error opening file</string>
+    <string name="media_share_button_desc">Share</string>
+    <string name="media_delete_button_desc">Delete file</string>
+    <!-- Notification Channel -->
+    <string name="notification_channel_name" translatable="false">PinDrop</string>
+    <string name="notification_channel_description">Show download progress</string>
+
+    <!-- Notification Messages -->
+    <string name="notification_download_ready">Ready to download...</string>
+    <string name="notification_download_completed">Download completed</string>
+    <string name="notification_download_error">Download error</string>
+    <string name="notification_download_cancelled">Download cancelled</string>
+    <!-- DownloadService Notification -->
+    <string name="notification_download_in_progress">Downloading...</string>
+    <string name="notification_queue_items">%d item(s) in queue</string>
+    <string name="notification_active_download">Downloading... (%d in queue)</string>
+</resources>

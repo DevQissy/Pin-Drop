@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Download status messages -->
+    <string name="download_connecting">درحال اتصال</string>
+    <string name="download_advanced_rendering">رندر پیشرفته</string>
+    <string name="download_no_media_found">فایل رسانه‌ای پیدا نشد</string>
+    <string name="download_file_progress">فایل %d/%d</string>
+    <string name="download_file_progress_percent"> %d/%d (%d%%)</string>
+    <string name="download_success_all">%d فایل ذخیره شد</string>
+    <string name="download_success_partial">%d/%d ذخیره شد</string>
+    <string name="download_failed">دانلود شکست خورد</string>
+    <string name="download_error">خطا</string>
+    <!-- Add Link Dialog -->
+    <string name="add_link_title">افزودن لینک پینترست</string>
+    <string name="add_link_warning">ممکن است سرویس پینترست در منطقه شما در دسترس نباشد. قبل از شروع فرایند دانلود، از اتصال پایدار به دامنه پینترست اطمینان حاصل کنید.</string>
+    <string name="add_link_placeholder">https://pin.it/...</string>
+    <string name="add_link_hint">لینک را از برنامه پینترست کپی کرده و در کادر بالا جایگذاری کنید</string>
+    <string name="add_link_empty_error">لینک را وارد کنید</string>
+    <string name="add_link_download_button">دانلود</string>
+    <string name="add_link_cancel_button">لغو</string>
+    <string name="add_link_paste_description">چسباندن</string>
+    <string name="add_link_clear_description">پاک کردن</string>
+    <!-- Confirm Dialog -->
+    <string name="confirm_dialog_default_title">تأیید</string>
+    <string name="confirm_dialog_default_message">آیا مطمئن هستید؟</string>
+    <string name="confirm_dialog_confirm_button">بله</string>
+    <string name="confirm_dialog_dismiss_button">انصراف</string>
+    <!-- Download Item -->
+    <string name="download_item_file_progress">فایل %d/%d</string>
+    <string name="download_item_cancel_description">لغو</string>
+    <!-- Help Dialog -->
+    <string name="help_dialog_title">راهنمای استفاده</string>
+    <string name="help_section_about_title">درباره Pin Drop</string>
+    <string name="help_section_about_content">این برنامه ابزاری جهت دانلود تصاویر، ویدیوها و آلبوم‌ها از پلتفرم پینترست است که محتوای مورد نظر شما را با بالاترین کیفیت موجود دریافت می‌کند.</string>
+    <string name="help_section_steps_title">مراحل دانلود</string>
+    <string name="help_section_steps_content">۱. لینک پین یا آلبوم مورد نظر را از برنامه پینترست کپی کنید.\n۲. آیکون ＋ در نوار پایین صفحه را لمس کنید.\n۳. لینک کپی شده را در کادر مربوطه قرار دهید (Paste).\n۴. دکمه شروع را بزنید تا فرآیند دانلود آغاز شود.</string>
+    <string name="help_section_storage_title">محل ذخیره‌سازی فایل‌ها</string>
+    <string name="help_section_storage_content">فایل‌های دانلود شده به صورت خودکار در حافظه دستگاه ذخیره می‌شوند و در گالری قابل مشاهده هستند:\n• ویدیوها: پوشه Movies/PinDrop\n• تصاویر: پوشه Pictures/PinDrop</string>
+    <string name="help_section_albums_title">دانلود آلبوم‌ها</string>
+    <string name="help_section_albums_content">در صورت وارد کردن لینک یک آلبوم، برنامه به طور هوشمند تمامی تصاویر موجود در آن را شناسایی کرده و به صورت یکجا دانلود می‌کند.</string>
+    <string name="help_section_history_title">تاریخچه دانلود</string>
+    <string name="help_section_history_content">تمامی فایل‌های دریافت شده در بخش تاریخچه ثبت می‌شوند تا در آینده دسترسی سریع‌تری به آن‌ها داشته باشید.</string>
+    <string name="help_section_quality_title">کیفیت فایل‌ها</string>
+    <string name="help_section_quality_content">Pin Drop فایل‌ها را بدون هیچ‌گونه فشرده‌سازی اضافی و با کیفیت اصلی (Original) موجود در سرورهای پینترست دانلود می‌کند.</string>
+    <string name="help_dialog_notice">توجه: در صورت بروز هرگونه اختلال در عملکرد برنامه، لطفاً مشکل را از طریق بخش «پشتیبانی» گزارش دهید.</string>
+    <string name="help_dialog_confirm_button">متوجه شدم</string>
+    <!-- Media Components -->
+    <string name="media_no_app_found">برنامه‌ای برای باز کردن این فایل یافت نشد</string>
+    <!-- Options Menu -->
+    <string name="options_menu_content_description">گزینه‌ها</string>
+    <string name="options_menu_help">راهنما</string>
+    <string name="options_menu_support">پشتیبانی</string>
+    <string name="options_menu_rate">امتیاز به برنامه</string>
+    <!-- Rate Dialog -->
+    <string name="rate_dialog_title">امتیاز به برنامه</string>
+    <string name="rate_dialog_message">اگر از برنامه Pin Drop رضایت دارید، با ثبت امتیاز خود در مایکت از ما حمایت کنید. نظرات شما به بهبود کیفیت برنامه کمک خواهد کرد.</string>
+    <string name="rate_dialog_error">متأسفانه خطایی رخ داد</string>
+    <string name="rate_dialog_confirm_button">امتیاز دادن</string>
+    <string name="rate_dialog_dismiss_button">بعداً</string>
+    <!-- Support Dialog -->
+    <string name="support_dialog_title">پشتیبانی و بازخورد</string>
+    <string name="support_dialog_message">جهت ارسال سوالات، پیشنهادات یا گزارش مشکلات، می‌توانید از طریق ارسال ایمیل با توسعه‌دهنده در ارتباط باشید.</string>
+    <string name="support_email_subject">پشتیبانی Pin Drop</string>
+    <string name="support_no_email_app">هیچ برنامه ایمیلی روی دستگاه شما نصب نیست</string>
+    <string name="support_open_email_error">خطا در باز کردن برنامه ایمیل</string>
+    <string name="support_confirm_button">ادامه</string>
+    <string name="support_dismiss_button">انصراف</string>
+    <!-- FirstLaunch Dialog -->
+    <string name="dialog_first_launch_title">فراموش نکنید :</string>  Don't forget:
+    <string name="dialog_first_launch_desc">ممکن است سرویس پینترست در منطقه شما در دسترس نباشد. قبل از شروع فرایند دانلود، از اتصال پایدار به دامنه پینترست اطمینان حاصل کنید.</string>
+    <string name="dialog_first_launch_confirm">متوجه شدم</string>
+    <!-- Delete File Dialog -->
+    <string name="delete_dialog_title">حذف فایل</string>
+    <string name="delete_dialog_message">آیا از حذف فایل \"%s\" اطمینان دارید؟</string>
+    <string name="delete_dialog_warning">این عمل غیرقابل بازگشت است و فایل برای همیشه حذف می‌شود.</string>
+    <string name="delete_dialog_confirm_button">حذف</string>
+    <string name="delete_dialog_cancel_button">انصراف</string>
+    <!-- Permission Screen -->
+    <string name="battery_permission_title">غیرفعال کردن بهینه‌سازی باتری</string>
+    <string name="battery_permission_message">برای عملکرد پایدار دانلودها در پس زمینه، اجازه دهید Pin Drop از محدودیت های بهینه سازی باتری مستثنی شود.</string>
+    <string name="notification_permission_title">مجوز نوتیفیکیشن</string>
+    <string name="notification_permission_message">برنامه برای نمایش پیشرفت دانلود در نوار اعلانات، نیاز به مجوز نوتیفیکیشن دارد.</string>
+    <string name="permission_title">دسترسی های برنامه</string>
+    <string name="permission_description">برای دانلود، مدیریت و اجرای صحیح وظایف برنامه در پس زمینه، لطفاً دسترسی های زیر را بررسی و تأیید کنید :</string>
+    <string name="permission_status_granted">فعال</string>
+    <string name="permission_button_enable">فعالسازی مجوز</string>
+    <string name="permission_button_already_enabled">مجوز فعال شد</string>
+    <!-- Downloads Screen -->
+    <string name="downloads_screen_options">گزینه‌ها</string>
+    <string name="downloads_screen_help">راهنما</string>
+    <string name="downloads_screen_support">پشتیبانی</string>
+    <string name="downloads_screen_rate">امتیاز به برنامه</string>
+    <string name="downloads_screen_clear_history">پاک کردن تاریخچه</string>
+    <string name="downloads_screen_active_section">دانلودهای فعال</string>
+    <string name="downloads_screen_history_section">تاریخچه</string>
+    <string name="downloads_screen_clear_button">پاک کردن</string>
+    <string name="downloads_screen_no_downloads">هیچ دانلودی وجود ندارد</string>
+    <string name="downloads_screen_add_hint">برای افزودن لینک پینترست، دکمه ＋ را بزنید</string>
+    <string name="downloads_screen_clear_history_title">پاک کردن تاریخچه</string>
+    <string name="downloads_screen_clear_history_message">آیا از پاک کردن تمام تاریخچه دانلود مطمئن هستید؟</string>
+    <string name="downloads_screen_clear_history_confirm">پاک کردن</string>
+    <string name="downloads_screen_clear_history_cancel">انصراف</string>
+    <!-- FilesScreen - Messages -->
+    <string name="files_delete_success">فایل حذف شد</string>
+    <string name="files_delete_error">خطا در حذف فایل</string>
+    <string name="files_delete_error_detail">خطا: %s</string>
+    <string name="files_share_error">خطا در اشتراک گذاری</string>
+    <string name="files_share_chooser_title">اشتراک گذاری</string>
+    <!-- History Item -->
+    <string name="history_item_file_count"> %d از %d فایل</string>
+    <string name="history_item_link_copied">لینک کپی شد</string>
+    <string name="history_item_copy_link_button">کپی لینک</string>
+    <!-- Files Screen -->
+    <string name="files_tab_all">همه</string>
+    <string name="files_empty_all">هیچ فایلی یافت نشد</string>
+    <string name="files_tab_videos">ویدیوها</string>
+    <string name="files_tab_images">تصاویر</string>
+
+    <!-- Media List -->
+    <string name="files_empty_videos">ویدیویی یافت نشد</string>
+    <string name="files_empty_images">تصویری یافت نشد</string>
+    <string name="files_empty_subtitle">فایل‌های دانلود شده در این بخش نمایش داده می‌شوند</string>
+    <!-- Main Screen -->
+    <string name="main_bottom_bar_files">فایل‌ها</string>
+    <string name="main_fab_add_link">افزودن لینک</string>
+    <string name="main_bottom_bar_downloads">دانلودها</string>
+    <!-- Download ViewModel -->
+    <string name="vm_no_internet">بدون اتصال اینترنت</string>
+    <string name="vm_in_queue">در صف...</string>
+    <string name="vm_cancelled_by_user">لغو شده توسط کاربر</string>
+    <!-- MediaListItem -->
+    <string name="media_open_file_error">خطا در باز کردن فایل</string>
+    <string name="media_share_button_desc">اشتراک گذاری</string>
+    <string name="media_delete_button_desc">حذف فایل</string>
+    <!-- Notification Channel -->
+    <string name="notification_channel_description">نمایش پیشرفت دانلود فایل‌ها</string>
+    <!-- Notification Messages -->
+    <string name="notification_download_ready">آماده دانلود...</string>
+    <string name="notification_download_completed">دانلود کامل شد</string>
+    <string name="notification_download_error">خطا در دانلود</string>
+    <string name="notification_download_cancelled">دانلود لغو شد</string>
+    <!-- DownloadService Notification -->
+    <string name="notification_download_in_progress">در حال دانلود...</string>
+    <string name="notification_queue_items">%d مورد در صف</string>
+    <string name="notification_active_download">در حال دانلود... (%d مورد در صف)</string>
+</resources>
